@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +7,6 @@
 }
 
 nav {
-  /* border: 1px solid green; */
   display: flex;
   align-items: center;
   background-color: #111111;
@@ -20,7 +20,6 @@ nav a.active {
 }
 
 nav .links {
-  /* border: 1px solid blue; */
   width: 320px;
   display: flex;
   justify-content: space-between;
@@ -34,5 +33,9 @@ nav a {
   font-size: 12px;
   letter-spacing: 2px;
   padding: 20px;
-  /* border: 1px solid red; */
+}
+
+.imagebg {
+  background-image: url('./static/images/bg-rift.png');
+  background-size: cover;
 }

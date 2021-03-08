@@ -35,6 +35,7 @@ export const Hero = styled.div`
     letter-spacing: 1px;
     text-align: center;
     font-weight: 500;
+    line-height: 29px;
   }
 
   a {
@@ -49,10 +50,15 @@ export const Hero = styled.div`
     text-transform: uppercase;
     background-color: rgba(0, 0, 0, 0.5);
     margin-top: 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  img path{
-    fill: red;
+  img.helmetbutton {
+    width: 17px;
+    margin-left: 10px;
   }
 
 `

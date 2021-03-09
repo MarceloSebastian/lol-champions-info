@@ -202,3 +202,48 @@ export const StyledSelectBar = styled.select`
   font-size: 12px;
   letter-spacing: 2px;
 `;
+
+export const Cards = styled.div`
+  border: 1px solid red;
+  width: 100%;
+  /* max-width: 1200px; */
+  margin: 60px auto 0;
+`;
+
+export const Card = styled.div`
+  border: 1px solid blue;
+  width: fit-content;
+  margin: 20px 20px 0 0;
+  
+  figure {
+    width: 248px;
+    height: 281px;
+    overflow: hidden;
+  }
+  
+  img {
+    transition: transform .5s;
+    width: 100%;
+  }
+
+  img:hover{
+    transform: scale(1.1);
+  }
+
+  /* h3 {
+    position: absolute;
+    border: 1px solid red;
+    width: 100%;
+    padding: 10px 0;
+  } */
+  .name {
+    background-color: rgb(41, 100, 125);
+    background-color: #061c25;
+    color: #f9f9f9;
+    font-size: 18px;
+    padding: 11px 0px 11px 15px;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+
+`;

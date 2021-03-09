@@ -69,6 +69,8 @@ export const AboutWrapper = styled.div`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  padding-bottom: 80px;
+
 
   figure {
     width: 80vh;
@@ -136,31 +138,36 @@ export const FooterWrapper = styled.footer`
     width: 100%;
   };
 
+  span {
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 14px;
+  }
+
   .container {
-    border: 1px solid red;
     min-height: 288px;
+    /* border: 1px solid blue; */
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
 
-  .left {
-    border: 1px solid red;
-    width: fit-content;
-    text-align: center;
-
-    span {
-      text-transform: uppercase;
-    }
+  p {
+    font-size: 18px;
+    margin-top: 7px;
   }
 
-  .right {
-    border: 1px solid #f9f9f9;
-    width: fit-content;
+  .social {
+    /* border: 1px solid green; */
+    font-size: 60px;
+    padding-top: 30px;
 
-    i {
-      font-size: 60px;
+    a {
+      margin: 15px;
     }
+
   }
 `;
 

@@ -13,21 +13,33 @@ const Footer = () => {
       </figure>
       <div className="container">
 
-        {/* <div className="left">
-          <span>Created By</span>
-          <p>Marcelo Sebastian</p>
+        <span className='golden'>Created By</span>
+        <p>Marcelo Sebastian</p>
+
+        
+        <div className="social">
+          <a href="https://twitter.com/Sebastian__Dev"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-twitter-square golden"></i>
+          </a>
+
+          <a href="https://github.com/MarceloSebastian"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-github-square golden"></i>
+          </a>
+
+          <a href="mailto:na.marcelo.sebastian@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fas fa-envelope-square golden"></i>
+          </a>
+
         </div>
-        <div className="right">
-          <a href="#">
-            <i class="fas fa-envelope-square"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-twitter-square"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-github-square"></i>
-          </a>
-        </div> */}
 
       </div>
     </FooterWrapper>

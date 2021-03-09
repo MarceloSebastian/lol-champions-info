@@ -114,3 +114,53 @@ export const AboutWrapper = styled.div`
 
   }
 `
+
+export const FooterWrapper = styled.footer`
+  background-color: #111;
+  color: #f9f9f9;
+  position: relative;
+
+  figure.banner1 {
+    width: 130px;
+    position: absolute;
+    left: calc(10% - 65px);
+  }
+
+  figure.banner2 {
+    width: 130px;
+    position: absolute;
+    right: calc(10% - 65px);
+  }
+
+  img {
+    width: 100%;
+  };
+
+  .container {
+    border: 1px solid red;
+    min-height: 288px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .left {
+    border: 1px solid red;
+    width: fit-content;
+    text-align: center;
+
+    span {
+      text-transform: uppercase;
+    }
+  }
+
+  .right {
+    border: 1px solid #f9f9f9;
+    width: fit-content;
+
+    i {
+      font-size: 60px;
+    }
+  }
+`;
+

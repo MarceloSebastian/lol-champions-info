@@ -10,7 +10,7 @@ export const LogoImage = styled.figure`
 
 export const WrapperHome = styled.div`
   min-height: calc(100vh - 84px);
-  `
+`;
 
 export const Hero = styled.div`
   min-height: calc(100vh - 84px);
@@ -59,11 +59,9 @@ export const Hero = styled.div`
     width: 17px;
     margin-left: 10px;
   }
-
-`
+`;
 
 export const AboutWrapper = styled.div`
-  /* border: 1px solid red; */
   min-height: calc(100vh - 84px);
   display: flex;
   justify-content: center;
@@ -74,7 +72,6 @@ export const AboutWrapper = styled.div`
 
   figure {
     width: 80vh;
-    /* border: 1px solid blue; */
   }
 
   img {
@@ -83,7 +80,6 @@ export const AboutWrapper = styled.div`
 
   .content {
     width: 600px; 
-    /* border: 1px solid green; */
     text-align: center;
     padding: 0 40px;
     
@@ -115,7 +111,7 @@ export const AboutWrapper = styled.div`
     }
 
   }
-`
+`;
 
 export const FooterWrapper = styled.footer`
   background-color: #111;
@@ -147,7 +143,6 @@ export const FooterWrapper = styled.footer`
 
   .container {
     min-height: 288px;
-    /* border: 1px solid blue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,7 +155,6 @@ export const FooterWrapper = styled.footer`
   }
 
   .social {
-    /* border: 1px solid green; */
     font-size: 60px;
     padding-top: 30px;
 
@@ -171,3 +165,40 @@ export const FooterWrapper = styled.footer`
   }
 `;
 
+export const ChampionsInfoWrapper = styled.div`
+  /* border: 1px solid red; */
+  padding: 50px;
+
+  span, h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+
+  span {
+    display: block;
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+`;
+
+export const StyledSelectBar = styled.select`
+  padding: 15px 25px;
+  -webkit-appearance: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 2px;
+`;

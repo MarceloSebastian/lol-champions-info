@@ -206,14 +206,15 @@ export const StyledSelectBar = styled.select`
 export const Cards = styled.div`
   border: 1px solid red;
   width: 100%;
-  /* max-width: 1200px; */
   margin: 60px auto 0;
+  max-width: 1082px;
 `;
 
 export const Card = styled.div`
   border: 1px solid blue;
   width: fit-content;
   margin: 20px 20px 0 0;
+  display: inline-block;
   
   figure {
     width: 248px;
@@ -230,12 +231,6 @@ export const Card = styled.div`
     transform: scale(1.1);
   }
 
-  /* h3 {
-    position: absolute;
-    border: 1px solid red;
-    width: 100%;
-    padding: 10px 0;
-  } */
   .name {
     background-color: rgb(41, 100, 125);
     background-color: #061c25;
@@ -245,5 +240,4 @@ export const Card = styled.div`
     text-transform: uppercase;
     font-style: italic;
   }
-
 `;
